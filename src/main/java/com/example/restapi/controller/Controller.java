@@ -27,7 +27,7 @@ public class Controller {
 
     @GetMapping("/message")
     public String displayMsg(){
-       return "Congrats! Your app deployed successfully in Azure";
+       return "Congrats! Your app deployed successfully in Azure!";
     }
     @GetMapping()
     public List<Product> getallProduct(){
